@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-courier/4.7.0/css/font-courier.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float:right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color:teal;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:teal;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="active">Search</a>
+  <a href="active">Help</a>
+  <a href="active">About</a>
+  <a href="file:///C:/Users/Richa%20Pragya/Desktop/New%20folder/login.html" target="_blank">Login</a>
+</div>
+</body>
+
+</html>
